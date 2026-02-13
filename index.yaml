@@ -1,0 +1,108 @@
+apiVersion: v1
+entries:
+  etherpad:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2026-02-13T10:30:57.630383693+01:00"
+    description: A Helm chart for etherpad lite
+    digest: 0318876dfe0991bf1c0a95c6caa83166eb6576d58bb5aabe0ef6b935fc679933
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://pbs.twimg.com/profile_images/1336377123964145665/2gTadaDt_400x400.jpg
+    maintainers:
+    - name: eformat
+    name: etherpad
+    type: application
+    urls:
+    - etherpad-0.0.7.tgz
+    version: 0.0.7
+  - apiVersion: v2
+    appVersion: latest
+    created: "2026-02-13T10:30:57.629786723+01:00"
+    description: A Helm chart for etherpad lite
+    digest: f8bf3f80428f0418e873407849634ae06d45d5ae7a09a31f9e4f8b749bca89e6
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://pbs.twimg.com/profile_images/1336377123964145665/2gTadaDt_400x400.jpg
+    maintainers:
+    - name: eformat
+    name: etherpad
+    type: application
+    urls:
+    - etherpad-0.0.6.tgz
+    version: 0.0.6
+  influxdb:
+  - apiVersion: v1
+    appVersion: 1.8.10
+    created: "2026-02-13T10:30:57.631942886+01:00"
+    description: Scalable datastore for metrics, events, and real-time analytics.
+    digest: 58f03304f57c607a5e91acd1797965edff9a061f70c6782e2b464c3e083915ae
+    home: https://www.influxdata.com/time-series-platform/influxdb/
+    keywords:
+    - influxdb
+    - database
+    - timeseries
+    - influxdata
+    maintainers:
+    - email: rawkode@influxdata.com
+      name: rawkode
+    - email: giacomo@influxdata.com
+      name: gitirabassi
+    - email: urakiny@gmail.com
+      name: aisuko
+    - email: naseem@transit.app
+      name: naseemkullah
+    name: influxdb
+    sources:
+    - https://github.com/influxdata/influxdb
+    urls:
+    - influxdb-4.12.1.tgz
+    version: 4.12.1
+  mysql-persistent:
+  - annotations:
+      charts.openshift.io/name: Red Hat MySQL database service, with persistent storage
+        (experimental).
+    apiVersion: v2
+    appVersion: 0.0.2
+    created: "2026-02-13T10:30:57.632653965+01:00"
+    dependencies:
+    - name: mysql-imagestreams
+      repository: https://github.com/openshift-helm-charts/charts
+      version: 0.0.1
+    description: 'This content is expermental, do not use it in production. MySQL
+      database service, with persistent storage. For more information about using
+      this template, including OpenShift considerations, see https://github.com/sclorg/mysql-container/blob/master/8.0/root/usr/share/container-scripts/mysql/README.md.  NOTE:
+      Scaling to more than one replica is not supported. You must have persistent
+      volumes available in your cluster to use this template.'
+    digest: cd8658789bc4373dc1016fa6c0225009dc2e8086f5c462e4f04c1c6bec75835d
+    kubeVersion: '>=1.20.0'
+    name: mysql-persistent
+    sources:
+    - https://github.com/sclorg/helm-charts
+    tags: database,mysql
+    urls:
+    - mysql-persistent-0.0.2.tgz
+    version: 0.0.2
+  - annotations:
+      charts.openshift.io/name: Red Hat MySQL database service, with persistent storage
+        (experimental).
+    apiVersion: v2
+    appVersion: 0.0.2
+    created: "2026-02-13T10:30:57.633264978+01:00"
+    dependencies:
+    - name: mysql-imagestreams
+      repository: https://github.com/openshift-helm-charts/charts
+      version: 0.0.1
+    description: 'This content is expermental, do not use it in production. MySQL
+      database service, with persistent storage. For more information about using
+      this template, including OpenShift considerations, see https://github.com/sclorg/mysql-container/blob/master/8.0/root/usr/share/container-scripts/mysql/README.md.  NOTE:
+      Scaling to more than one replica is not supported. You must have persistent
+      volumes available in your cluster to use this template.'
+    digest: 4befb4ae43c83a76982191b05b67c6a9a8c3124eaa0575d506bbaf5837f69a88
+    kubeVersion: '>=1.20.0'
+    name: mysql-persistent
+    sources:
+    - https://github.com/sclorg/helm-charts
+    tags: database,mysql
+    urls:
+    - mysql-persistent/mysql-persistent-0.0.2.tgz
+    version: 0.0.2
+generated: "2026-02-13T10:30:57.629015112+01:00"
